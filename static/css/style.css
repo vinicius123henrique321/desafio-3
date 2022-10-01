@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+
+}
+
+/*index*/
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: cente;
+
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 240px;
+}
+
+
+.links{
+    display: flex;
+    flex-direction:row;
+    padding-left: 240px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 28px;
+    align-items: center;
+}
+
+.standart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 687px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.final{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+/*exclusivo_quemsomos*/
+
+.titulo1{
+    padding-top: 2%;
+}
+
+.lista{
+    display: flex;
+    padding-right: 650px;
+    padding-bottom: 2%;
+}
+
+.subtituloq{
+    display: flex;
+    flex-direction: column;
+    padding-right: 650px;
+    padding-bottom: 2%;
+}
+
+/*exclusivo_contato*/
+
+.contato{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-right: 710px;
+    padding-top: 2%;
+}
+
+.textoc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-right: 316px;
+    padding-bottom: 2%;
+}
+
+.login{
+    display: block;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.itens{
+    border-style: solid;
+    border-color: gray;
+    border-width:thin;
+}

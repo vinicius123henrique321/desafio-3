@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio_1</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='imagens/css/style.css')}}">
+</head>
+
+<body class="corpo" background="{{url_for('static', filename='imagens/logo 2.png')}}">
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="{{url_for('static', filename='imagens/logo 1.png')}}" alt="logo">
+        </div>
+        <div class="links">|
+            <a href="/index">Home|</a>|
+            <a href="/quem somos">Quem somos|</a>|
+            <a href="/contato">Contato|</a>|
+        </div>
+    </header>    
+    <main>
+        <div>
+            <div class="contato">    
+                <h2>Entre em contato</h2>
+            </div>
+            <div class="textoc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl.</p>
+            </div>
+        </div>
+        <hr size="3%" width="100%" color="gray">
+        <form class="login"> 
+            Seu email: <br>
+            <input class="itens" type="text" name="seu email"> <br>
+
+            Assunto: <br>
+            <input class="itens" type="password" name="assunto"> <br>
+
+            descrição: <br>
+            <textarea class="itens" name="descrição" cols="10"></textarea>
+            <div class="botao">
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </main>    
+    <footer>
+        <div class="final">
+            <h4>Todos os direitos reservados</h4>
+        </div>
+    </footer>
+</body>
+</html>
