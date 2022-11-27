@@ -121,3 +121,15 @@
     border-color: gray;
     border-width:thin;
 }
+
+.botao{
+    margin-top: 1rem;
+}
+
+#botao{
+    background-color: darkgrey;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border-color: black;
+}
